@@ -22,8 +22,8 @@ iverilog and gtkwave
 
 2.Simulate rvmyth using the following steps:
 
- a. git clone https://github.com/kunalg123/rvmyth/
- b. cd rvmyth
- c. iverilog mythcore_test.v tb_mythcore_test.v
- d. ./a.out
- e. gtkwave tb_mythcore_test.vcd
+ a. git clone https://github.com/kunalg123/rvmyth/ <br />
+ b. cd rvmyth <br />
+ c. iverilog mythcore_test.v tb_mythcore_test.v <br />
+ d. ./a.out <br />
+ e. gtkwave tb_mythcore_test.vcd <br />
