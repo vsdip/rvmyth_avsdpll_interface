@@ -14,3 +14,16 @@ iverilog and gtkwave
 ### PLL Specs
 
 <img src = "https://github.com/vsdip/rvmyth_avsdpll_interface/blob/main/pics/2.png" width = 700>
+
+
+## Installation steps
+
+1.Install iverilog and gtkwave
+
+2.Simulate rvmyth using the following steps:
+
+ a. git clone https://github.com/kunalg123/rvmyth/
+ b. cd rvmyth
+ c. iverilog mythcore_test.v tb_mythcore_test.v
+ d. ./a.out
+ e. gtkwave tb_mythcore_test.vcd
