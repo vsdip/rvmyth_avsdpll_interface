@@ -35,5 +35,5 @@ iverilog and gtkwave
 <img src = "https://github.com/vsdip/rvmyth_avsdpll_interface/blob/main/pics/3.PNG" width = 700>
 
 
-<img src = "https://github.com/vsdip/rvmyth_avsdpll_interface/blob/main/pics/4.png" width = 700>
+<img src = "https://github.com/vsdip/rvmyth_avsdpll_interface/blob/main/pics/4.PNG" width = 700>
 
