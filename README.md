@@ -20,7 +20,7 @@ iverilog and gtkwave
 
 1. Install iverilog and gtkwave
 
-2. Simulate rvmyth using the following steps:
+2. Simulate rvmyth using the following steps: <br />
 
  a. git clone https://github.com/kunalg123/rvmyth/ <br />
  b. cd rvmyth <br />
