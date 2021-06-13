@@ -5,8 +5,8 @@ The aim of this repository is to integrate rvmyth (RISC-V CPU core) with Phase L
 
 ### Problem Statement
 
-<img src = "https://github.com/vsdip/rvmyth_avsdpll_interface/blob/main/pics/1.png" width = 900>
+<img src = "https://github.com/vsdip/rvmyth_avsdpll_interface/blob/main/pics/1.png" width = 700>
 
 ### PLL Specs
 
-<img src = "https://github.com/vsdip/rvmyth_avsdpll_interface/blob/main/pics/2.png" width = 900>
+<img src = "https://github.com/vsdip/rvmyth_avsdpll_interface/blob/main/pics/2.png" width = 700>
