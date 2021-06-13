@@ -27,3 +27,13 @@ iverilog and gtkwave
  c. iverilog mythcore_test.v tb_mythcore_test.v <br />
  d. ./a.out <br />
  e. gtkwave tb_mythcore_test.vcd <br />
+
+
+<img src = "https://github.com/vsdip/rvmyth_avsdpll_interface/blob/main/pics/3a.PNG" width = 700>
+
+
+<img src = "https://github.com/vsdip/rvmyth_avsdpll_interface/blob/main/pics/3.PNG" width = 700>
+
+
+<img src = "https://github.com/vsdip/rvmyth_avsdpll_interface/blob/main/pics/4.png" width = 700>
+
