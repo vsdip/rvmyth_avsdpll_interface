@@ -22,11 +22,11 @@ iverilog and gtkwave
 
 2. Simulate rvmyth using the following steps: 
 
-   - a. git clone https://github.com/kunalg123/rvmyth/ <br />
-   - b. cd rvmyth <br />
-   - c. iverilog mythcore_test.v tb_mythcore_test.v <br />
-   - d. ./a.out <br />
-   - e. gtkwave tb_mythcore_test.vcd <br />
+   -  git clone https://github.com/kunalg123/rvmyth/ <br />
+   -  cd rvmyth <br />
+   -  iverilog mythcore_test.v tb_mythcore_test.v <br />
+   -  ./a.out <br />
+   -  gtkwave tb_mythcore_test.vcd <br />
 
 
 <img src = "https://github.com/vsdip/rvmyth_avsdpll_interface/blob/main/pics/3a.PNG" width = 700>
