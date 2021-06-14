@@ -1,0 +1,206 @@
+#! /usr/bin/vvp
+:ivl_version "10.3 (stable)";
+:ivl_delay_selection "TYPICAL";
+:vpi_time_precision - 12;
+:vpi_module "system";
+:vpi_module "vhdl_sys";
+:vpi_module "v2005_math";
+:vpi_module "va_math";
+S_0x56377cc104e0 .scope module, "pll_tb" "pll_tb" 2 2;
+ .timescale -9 -12;
+v0x56377cc27690_0 .net "CLK", 0 0, v0x56377cbd7140_0;  1 drivers
+v0x56377cc27750_0 .var "EN_VCO", 0 0;
+v0x56377cc27820_0 .var "REF", 0 0;
+v0x56377cc27920_0 .var "VCO_IN", 0 0;
+v0x56377cc279f0_0 .var "VDDA", 0 0;
+v0x56377cc27a90_0 .var "VDDD", 0 0;
+v0x56377cc27b60_0 .var "VSSA", 0 0;
+v0x56377cc27c30_0 .var "VSSD", 0 0;
+S_0x56377cc10660 .scope module, "dut" "avsd_pll_1v8" 2 17, 3 2 0, S_0x56377cc104e0;
+ .timescale -9 -12;
+    .port_info 0 /OUTPUT 1 "CLK"
+    .port_info 1 /INPUT 1 "VCO_IN"
+    .port_info 2 /INPUT 1 "VDDA"
+    .port_info 3 /INPUT 1 "VDDD"
+    .port_info 4 /INPUT 1 "VSSA"
+    .port_info 5 /INPUT 1 "VSSD"
+    .port_info 6 /INPUT 1 "EN_VCO"
+    .port_info 7 /INPUT 1 "REF"
+v0x56377cbd7140_0 .var "CLK", 0 0;
+v0x56377cc26de0_0 .net "EN_VCO", 0 0, v0x56377cc27750_0;  1 drivers
+v0x56377cc26ea0_0 .net "REF", 0 0, v0x56377cc27820_0;  1 drivers
+v0x56377cc26f40_0 .net "VCO_IN", 0 0, v0x56377cc27920_0;  1 drivers
+v0x56377cc27000_0 .net "VDDA", 0 0, v0x56377cc279f0_0;  1 drivers
+v0x56377cc27110_0 .net "VDDD", 0 0, v0x56377cc27a90_0;  1 drivers
+v0x56377cc271d0_0 .net "VSSA", 0 0, v0x56377cc27b60_0;  1 drivers
+v0x56377cc27290_0 .net "VSSD", 0 0, v0x56377cc27c30_0;  1 drivers
+v0x56377cc27350_0 .var/real "lastedge", 0 0;
+v0x56377cc27410_0 .var/real "period", 0 0;
+v0x56377cc274d0_0 .var/real "refpd", 0 0;
+E_0x56377cc0c650 .event posedge, v0x56377cc26ea0_0;
+E_0x56377cc0d0c0 .event edge, v0x56377cc26de0_0, v0x56377cbd7140_0;
+    .scope S_0x56377cc10660;
+T_0 ;
+    %pushi/real 0, 4065; load=0.00000
+    %store/real v0x56377cc27350_0;
+    %pushi/real 1677721600, 4070; load=25.0000
+    %store/real v0x56377cc27410_0;
+    %pushi/vec4 0, 0, 1;
+    %assign/vec4 v0x56377cbd7140_0, 0;
+    %end;
+    .thread T_0;
+    .scope S_0x56377cc10660;
+T_1 ;
+    %wait E_0x56377cc0d0c0;
+    %load/vec4 v0x56377cc26de0_0;
+    %cmpi/e 1, 0, 1;
+    %jmp/0xz  T_1.0, 4;
+    %load/real v0x56377cc27410_0;
+    %pushi/real 1073741824, 4067; load=2.00000
+    %div/wr;
+    %pushi/real 2097152000, 4075; load=1000.00
+    %mul/wr;
+    %cvt/vr 64;
+    %muli 1, 0, 64;
+    %ix/vec4 4;
+    %delayx 4;
+    %load/vec4 v0x56377cbd7140_0;
+    %pushi/vec4 0, 0, 1;
+    %cmp/e;
+    %flag_get/vec4 6;
+    %assign/vec4 v0x56377cbd7140_0, 0;
+    %jmp T_1.1;
+T_1.0 ;
+    %load/vec4 v0x56377cc26de0_0;
+    %cmpi/e 0, 0, 1;
+    %jmp/0xz  T_1.2, 4;
+    %pushi/vec4 0, 0, 1;
+    %assign/vec4 v0x56377cbd7140_0, 0;
+    %jmp T_1.3;
+T_1.2 ;
+    %pushi/vec4 1, 1, 1;
+    %assign/vec4 v0x56377cbd7140_0, 0;
+T_1.3 ;
+T_1.1 ;
+    %jmp T_1;
+    .thread T_1, $push;
+    .scope S_0x56377cc10660;
+T_2 ;
+    %wait E_0x56377cc0c650;
+    %pushi/real 0, 4065; load=0.00000
+    %load/real v0x56377cc27350_0;
+    %cmp/wr;
+    %jmp/0xz  T_2.0, 5;
+    %vpi_func/r 3 42 "$realtime" {0 0 0};
+    %load/real v0x56377cc27350_0;
+    %sub/wr;
+    %store/real v0x56377cc274d0_0;
+    %pushi/real 2126008811, 4065; load=0.990000
+    %pushi/real 2181038, 4043; load=0.990000
+    %add/wr;
+    %load/real v0x56377cc27410_0;
+    %mul/wr;
+    %pushi/real 1374389534, 4059; load=0.0100000
+    %pushi/real 3019899, 4037; load=0.0100000
+    %add/wr;
+    %load/real v0x56377cc274d0_0;
+    %pushi/real 1073741824, 4069; load=8.00000
+    %div/wr;
+    %mul/wr;
+    %add/wr;
+    %store/real v0x56377cc27410_0;
+T_2.0 ;
+    %vpi_func/r 3 46 "$realtime" {0 0 0};
+    %store/real v0x56377cc27350_0;
+    %jmp T_2;
+    .thread T_2;
+    .scope S_0x56377cc104e0;
+T_3 ;
+    %pushi/vec4 0, 0, 2;
+    %split/vec4 1;
+    %store/vec4 v0x56377cc27750_0, 0, 1;
+    %store/vec4 v0x56377cc27820_0, 0, 1;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0x56377cc27920_0, 0, 1;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0x56377cc279f0_0, 0, 1;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0x56377cc27a90_0, 0, 1;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0x56377cc27b60_0, 0, 1;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0x56377cc27c30_0, 0, 1;
+    %end;
+    .thread T_3;
+    .scope S_0x56377cc104e0;
+T_4 ;
+    %vpi_call 2 32 "$dumpfile", "test.vcd" {0 0 0};
+    %vpi_call 2 33 "$dumpvars", 32'sb00000000000000000000000000000000, S_0x56377cc104e0 {0 0 0};
+    %end;
+    .thread T_4;
+    .scope S_0x56377cc104e0;
+T_5 ;
+    %pushi/vec4 2, 0, 32;
+T_5.0 %dup/vec4;
+    %pushi/vec4 0, 0, 32;
+    %cmp/s;
+    %jmp/1xz T_5.1, 5;
+    %jmp/1 T_5.1, 4;
+    %pushi/vec4 1, 0, 32;
+    %sub;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v0x56377cc27750_0, 0, 1;
+    %delay 100000, 0;
+    %load/vec4 v0x56377cc27820_0;
+    %inv;
+    %store/vec4 v0x56377cc27820_0, 0, 1;
+    %jmp T_5.0;
+T_5.1 ;
+    %pop/vec4 1;
+    %pushi/vec4 2, 0, 32;
+T_5.2 %dup/vec4;
+    %pushi/vec4 0, 0, 32;
+    %cmp/s;
+    %jmp/1xz T_5.3, 5;
+    %jmp/1 T_5.3, 4;
+    %pushi/vec4 1, 0, 32;
+    %sub;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v0x56377cc27750_0, 0, 1;
+    %delay 50000, 0;
+    %load/vec4 v0x56377cc27820_0;
+    %inv;
+    %store/vec4 v0x56377cc27820_0, 0, 1;
+    %jmp T_5.2;
+T_5.3 ;
+    %pop/vec4 1;
+    %pushi/vec4 400, 0, 32;
+T_5.4 %dup/vec4;
+    %pushi/vec4 0, 0, 32;
+    %cmp/s;
+    %jmp/1xz T_5.5, 5;
+    %jmp/1 T_5.5, 4;
+    %pushi/vec4 1, 0, 32;
+    %sub;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v0x56377cc27750_0, 0, 1;
+    %delay 100000, 0;
+    %load/vec4 v0x56377cc27820_0;
+    %inv;
+    %store/vec4 v0x56377cc27820_0, 0, 1;
+    %delay 41665, 0;
+    %load/vec4 v0x56377cc27920_0;
+    %inv;
+    %store/vec4 v0x56377cc27920_0, 0, 1;
+    %jmp T_5.4;
+T_5.5 ;
+    %pop/vec4 1;
+    %vpi_call 2 59 "$finish" {0 0 0};
+    %end;
+    .thread T_5;
+# The file index is used to find the file name in the following table.
+:file_names 4;
+    "N/A";
+    "<interactive>";
+    "pll_tb.v";
+    "avsd_pll_1v8.v";
