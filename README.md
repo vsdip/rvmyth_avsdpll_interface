@@ -91,4 +91,8 @@ For that you'd need to create a verilog code for gate level simulation that must
 Both pre-synth and post-synth simulations must give out the same output.
 
 
+## **Acknowledgements**
+Mr.[Kunal Ghosh](https://www.vlsisystemdesign.com/about-me/) Co-founder of [VLSI System Design Pvt. Ltd](https://www.vlsisystemdesign.com/).
+
+
 
