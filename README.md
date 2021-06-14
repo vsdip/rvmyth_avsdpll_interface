@@ -53,5 +53,31 @@ Now integrate both rvmyth and avsdpll using a top level testbench and test it to
 
 ## OpenLANE and sky130 Installation steps
 
+OpenLANE is an automated RTL to GDSII flow based on several components including OpenROAD, Yosys, Magic, Netgen, Fault,SPEF-Extractor and custom methodology scripts for design exploration and optimization. The OpenLANE and sky130 installation can be done by following the steps in this repository https://github.com/nickson-jose/openlane_build_script.
+
+More information on OpenLANE can be found in this repository https://github.com/efabless/openlane .
+
+After finishing off the installation, the first step in the design flow is to synthesize the generated RTL code.
+
+Synthesis in yosys
+In OpenLANE the RTL synthesis is performed by yosys.
+The technolgy mapping is performed by abc.
+Finally, the timing reports are generated for the resulting synthesized netlist by OpenSTA.
+Inorder to perform synthesis, you will need:
+
+Verilog file(.v) of the avsddac and its LIB(.lib) file.
+To generate the LIB file run the perl script given on this link, with the command given below.
+perl verilog_to_lib.pl avsddac.v avsddac
+
+To perform synthesys in yosys --> Just type yosys in linux shell. --> Then follow the script
+
+The synthesized netlist can be found here.
+
+--> Now, simulate the generated netlist in iverilog & gtkwave to compare the pre - synthesis and post- synthesis simulations.
+
+For that you'd need to create a verilog code for gate level simulation that must include the synthesized netlist verilog file obtained from yosys. The files necessary for pre and post synthesis can be found here.
+
+Both pre-synth and post-synth simulations must give out the same output.
+
 
 
