@@ -4,6 +4,7 @@
 > 1. [Introduction](https://github.com/vsdip/rvmyth_avsdpll_interface/blob/main/README.md#introduction) <br />
 > 2. [Required Tools](https://github.com/vsdip/rvmyth_avsdpll_interface/blob/main/README.md#required-tools)
 > 3. [Problem Statement](https://github.com/vsdip/rvmyth_avsdpll_interface/blob/main/README.md#problem-statement) <br />
+> 4. [Methodology]()
 > 4. [PLL Specs](https://github.com/vsdip/rvmyth_avsdpll_interface#pll-specs) <br />
 > 5. [Installation & Runs](https://github.com/vsdip/rvmyth_avsdpll_interface#installation--runs) <br />
 > 6. [OpenLANE and sky130 Installation ](https://github.com/vsdip/rvmyth_avsdpll_interface#openlane-and-sky130-installation) <br />
@@ -20,15 +21,14 @@
 
 ### **Problem Statement**
 
-The rvmyth is a digital block whereas the pll is an ananlog block. To achieve the integration firstly we need to generate a verilog block for the PLL and take the output of the PLL and give it as an input to the rvmyth. This will create the interface then the PNR flow must be implemented.
-
-
 <img src = "https://github.com/vsdip/rvmyth_avsdpll_interface/blob/main/pics/1.png" width = 700>
 
 ### **PLL Specs**
 
 <img src = "https://github.com/vsdip/rvmyth_avsdpll_interface/blob/main/pics/2.png" width = 700>
 
+### **Methodology**
+The rvmyth is a digital block whereas the pll is an ananlog block. To achieve the integration firstly we need to generate a verilog block for the PLL and take the output of the PLL and give it as an input to the rvmyth. This will create the interface then the PNR flow must be implemented.
 
 ### **Installation & Runs**
 
