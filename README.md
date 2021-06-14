@@ -40,7 +40,7 @@ Install iverilog and gtkwave
 The rvmyth is a digital block whereas the pll is an ananlog block. To achieve the integration firstly we need to generate a verilog block for the PLL and take the output of the PLL and give it as an input to the rvmyth. This will create the interface then the PNR flow must be implemented.
 
 
- #### **Rvmyth simulation**
+- #### **Rvmyth simulation**
       Simulate rvmyth using the following steps: 
 
    -  git clone https://github.com/kunalg123/rvmyth/ <br />
@@ -52,7 +52,7 @@ The rvmyth is a digital block whereas the pll is an ananlog block. To achieve th
 
 <img src = "https://github.com/vsdip/rvmyth_avsdpll_interface/blob/main/pics/3a.PNG" width = 700>
 
-2. #### **Designing avsdpll**
+- #### **Designing avsdpll**
 Design a PLL as a clock multiplier using verilog and test the functionality.
 
   - iverilog avsd_pll_1v8.v pll_tb.v
@@ -62,7 +62,7 @@ Design a PLL as a clock multiplier using verilog and test the functionality.
 
 <img src = "https://github.com/vsdip/rvmyth_avsdpll_interface/blob/main/pics/3aa.PNG" width = 700>
 
-3. #### **Integration of rvmyth and avsdpll**
+- #### **Integration of rvmyth and avsdpll**
 Now integrate both rvmyth and avsdpll using a top level testbench and test it to verify.
 
  - iverilog rvmyth_pll.v rvmyth_pll_tb.v
