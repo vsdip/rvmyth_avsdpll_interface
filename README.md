@@ -5,8 +5,11 @@
 > 2. [Required Tools](https://github.com/vsdip/rvmyth_avsdpll_interface/blob/main/README.md#required-tools)
 > 3. [Problem Statement](https://github.com/vsdip/rvmyth_avsdpll_interface/blob/main/README.md#problem-statement) <br />
 > 4. [PLL Specs](https://github.com/vsdip/rvmyth_avsdpll_interface#pll-specs) <br />
-> 5. [Methodology](https://github.com/vsdip/rvmyth_avsdpll_interface/blob/main/README.md#methodology)
-> 6. [Installation & Runs](https://github.com/vsdip/rvmyth_avsdpll_interface#installation--runs) <br />
+> 5. [Installation & Runs](https://github.com/vsdip/rvmyth_avsdpll_interface#installation--runs) <br />
+> 6. [Methodology](https://github.com/vsdip/rvmyth_avsdpll_interface/blob/main/README.md#methodology)
+>    -  [Rvmyth simulation]()
+>    -  [Designing avsdpll]()
+>    -  [Integration of rvmyth and avsdpll]()
 > 7. [OpenLANE and sky130 Installation ](https://github.com/vsdip/rvmyth_avsdpll_interface#openlane-and-sky130-installation) <br />
 > 8. [Synthesis in yosys](https://github.com/vsdip/rvmyth_avsdpll_interface#synthesis-in-yosys) <br />
 > 9. [Acknowledgements](https://github.com/vsdip/rvmyth_avsdpll_interface#acknowledgements)
@@ -28,12 +31,14 @@ Integration of *rvmyth* with *avsd_pll_1v8*. <br />
 
 <img src = "https://github.com/vsdip/rvmyth_avsdpll_interface/blob/main/pics/2.png" width = 700>
 
-### **Methodology**
-The rvmyth is a digital block whereas the pll is an ananlog block. To achieve the integration firstly we need to generate a verilog block for the PLL and take the output of the PLL and give it as an input to the rvmyth. This will create the interface then the PNR flow must be implemented.
 
 ### **Installation & Runs**
 
 Install iverilog and gtkwave
+
+### **Methodology**
+The rvmyth is a digital block whereas the pll is an ananlog block. To achieve the integration firstly we need to generate a verilog block for the PLL and take the output of the PLL and give it as an input to the rvmyth. This will create the interface then the PNR flow must be implemented.
+
 
 1. #### **rvmyth simulation**
       Simulate rvmyth using the following steps: 
