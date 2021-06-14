@@ -3,8 +3,8 @@
 > ## Table of Contents
 > 1. [Problem Statement](https://github.com/vsdip/rvmyth_avsdpll_interface/blob/main/README.md#problem-statement) <br />
 > 2. [PLL Specs](https://github.com/vsdip/rvmyth_avsdpll_interface#pll-specs) <br />
-> 3. [Installation & Runs](https://github.com/vsdip/rvmyth_avsdpll_interface#installation-steps) <br />
-> 4. [OpenLANE and sky130 Installation ](https://github.com/vsdip/rvmyth_avsdpll_interface#openlane-and-sky130-installation-steps) <br />
+> 3. [Installation & Runs](https://github.com/vsdip/rvmyth_avsdpll_interface#installation--runs) <br />
+> 4. [OpenLANE and sky130 Installation ](https://github.com/vsdip/rvmyth_avsdpll_interface#openlane-and-sky130-installation) <br />
 > 5. [Synthesis in yosys](https://github.com/vsdip/rvmyth_avsdpll_interface#synthesis-in-yosys) <br />
 > 6. [Acknowledgements](https://github.com/vsdip/rvmyth_avsdpll_interface#acknowledgements)
 
