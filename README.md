@@ -1,9 +1,14 @@
 # rvmyth_avsdpll_interface
 
 > ## Table of Contents
-> [Problem Statement] (#problem-statement)
+> 1. [Problem Statement](https://github.com/vsdip/rvmyth_avsdpll_interface/blob/main/README.md#problem-statement) <br />
+> 2. [PLL Specs](https://github.com/vsdip/rvmyth_avsdpll_interface#pll-specs) <br />
+> 3. [Installation Steps](https://github.com/vsdip/rvmyth_avsdpll_interface#installation-steps) <br />
+> 4. [OpenLANE and sky130 Installation steps](https://github.com/vsdip/rvmyth_avsdpll_interface#openlane-and-sky130-installation-steps) <br />
+> 5. [Synthesis in yosys](https://github.com/vsdip/rvmyth_avsdpll_interface#synthesis-in-yosys) <br />
+> 6. [Acknowledgments]()
 
-The aim of this repository is to integrate rvmyth (RISC-V CPU core) with Phase Locked Looop (PLL) clock multiplier IP using open-source EDA tools. The whole project focuses on Mixed Signal Physical Design. 
+**The aim of this repository is to integrate rvmyth (RISC-V CPU core developed by VSD) with a PLL (Phase Locked Loop) as a clock multiplier using open-source EDA tools. The whole project focuses on Mixed Signal Physical Design.** 
 ### Tools Required
 
 iverilog and gtkwave
