@@ -40,7 +40,7 @@ Install iverilog and gtkwave
 The rvmyth is a digital block whereas the pll is an ananlog block. To achieve the integration firstly we need to generate a verilog block for the PLL and take the output of the PLL and give it as an input to the rvmyth. This will create the interface then the PNR flow must be implemented.
 
 
-1. #### **rvmyth simulation**
+ #### **Rvmyth simulation**
       Simulate rvmyth using the following steps: 
 
    -  git clone https://github.com/kunalg123/rvmyth/ <br />
