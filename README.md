@@ -33,7 +33,7 @@ iverilog and gtkwave
 
 Design a PLL as a clock multiplier using verilog and test the functionality.
 
-  - iverilog avsd_pll_1v8.v   pll_tb.v
+  - iverilog avsd_pll_1v8.v pll_tb.v
   - ./a.out
   - gtkwave test.vcd
 
@@ -41,5 +41,17 @@ Design a PLL as a clock multiplier using verilog and test the functionality.
 <img src = "https://github.com/vsdip/rvmyth_avsdpll_interface/blob/main/pics/3aa.PNG" width = 700>
 
 
+Now integrate both rvmyth and avsdpll using a top level testbench and test it to verify.
+
+ - iverilog rvmyth_pll.v rvmyth_pll_tb.v
+ - ./a.out
+ - gtkwave test1.vcd
+
+
 <img src = "https://github.com/vsdip/rvmyth_avsdpll_interface/blob/main/pics/4.PNG" width = 700>
+
+
+##OpenLANE and sky130 Installation steps
+
+
 
