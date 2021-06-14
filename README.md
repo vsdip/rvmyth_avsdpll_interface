@@ -4,12 +4,12 @@
 > 1. [Introduction](https://github.com/vsdip/rvmyth_avsdpll_interface/blob/main/README.md#introduction) <br />
 > 2. [Required Tools](https://github.com/vsdip/rvmyth_avsdpll_interface/blob/main/README.md#required-tools)
 > 3. [Problem Statement](https://github.com/vsdip/rvmyth_avsdpll_interface/blob/main/README.md#problem-statement) <br />
-> 4. [Methodology]()
 > 4. [PLL Specs](https://github.com/vsdip/rvmyth_avsdpll_interface#pll-specs) <br />
-> 5. [Installation & Runs](https://github.com/vsdip/rvmyth_avsdpll_interface#installation--runs) <br />
-> 6. [OpenLANE and sky130 Installation ](https://github.com/vsdip/rvmyth_avsdpll_interface#openlane-and-sky130-installation) <br />
-> 7. [Synthesis in yosys](https://github.com/vsdip/rvmyth_avsdpll_interface#synthesis-in-yosys) <br />
-> 8. [Acknowledgements](https://github.com/vsdip/rvmyth_avsdpll_interface#acknowledgements)
+> 5. [Methodology](https://github.com/vsdip/rvmyth_avsdpll_interface/blob/main/README.md#methodology)
+> 6. [Installation & Runs](https://github.com/vsdip/rvmyth_avsdpll_interface#installation--runs) <br />
+> 7. [OpenLANE and sky130 Installation ](https://github.com/vsdip/rvmyth_avsdpll_interface#openlane-and-sky130-installation) <br />
+> 8. [Synthesis in yosys](https://github.com/vsdip/rvmyth_avsdpll_interface#synthesis-in-yosys) <br />
+> 9. [Acknowledgements](https://github.com/vsdip/rvmyth_avsdpll_interface#acknowledgements)
 
 ### **Introduction**
 **The aim of this repository is to integrate rvmyth (RISC-V CPU core developed by VSD) with a PLL (Phase Locked Loop) as a clock multiplier using open-source EDA tools. The whole project focuses on Mixed Signal Physical Design.** 
