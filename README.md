@@ -7,9 +7,9 @@
 > 4. [PLL Specs](https://github.com/vsdip/rvmyth_avsdpll_interface#pll-specs) <br />
 > 5. [Installation & Runs](https://github.com/vsdip/rvmyth_avsdpll_interface#installation--runs) <br />
 > 6. [Methodology](https://github.com/vsdip/rvmyth_avsdpll_interface/blob/main/README.md#methodology)
->    -  [Rvmyth simulation]()
->    -  [Designing avsdpll]()
->    -  [Integration of rvmyth and avsdpll]()
+>    -  [Rvmyth simulation](https://github.com/vsdip/rvmyth_avsdpll_interface#rvmyth-simulation)
+>    -  [Designing avsdpll](https://github.com/vsdip/rvmyth_avsdpll_interface#designing-avsdpll)
+>    -  [Integration of rvmyth and avsdpll](https://github.com/vsdip/rvmyth_avsdpll_interface#integration-of-rvmyth-and-avsdpll)
 > 7. [OpenLANE and sky130 Installation ](https://github.com/vsdip/rvmyth_avsdpll_interface#openlane-and-sky130-installation) <br />
 > 8. [Synthesis in yosys](https://github.com/vsdip/rvmyth_avsdpll_interface#synthesis-in-yosys) <br />
 > 9. [Acknowledgements](https://github.com/vsdip/rvmyth_avsdpll_interface#acknowledgements)
