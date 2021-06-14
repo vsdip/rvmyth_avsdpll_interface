@@ -33,6 +33,10 @@ iverilog and gtkwave
 
 Design a PLL as a clock multiplier using verilog and test the functionality.
 
+  - iverilog avsd_pll_1v8.v pll_tb.v
+  - ./a.out
+  - gtkwave test.vcd
+
 
 <img src = "https://github.com/vsdip/rvmyth_avsdpll_interface/blob/main/pics/3.PNG" width = 700>
 
