@@ -97,7 +97,14 @@ stat <br />
 write_verilog -noattr rvmyth_avsddac.synth.v <br />
 
 
-The synthesized netlist can be found here.
+The synthesized netlist is *avsd_pll_1v8.synth.v* <br />
+
+The snapshot of the synthesized netlist.
+
+
+<img src = "https://github.com/vsdip/rvmyth_avsdpll_interface/blob/main/pics/5.PNG" width = 700>
+
+
 
 --> Now, simulate the generated netlist in iverilog & gtkwave to compare the pre - synthesis and post- synthesis simulations.
 
