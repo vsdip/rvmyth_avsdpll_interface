@@ -1,7 +1,7 @@
 # rvmyth_avsdpll_interface
 
 > ## Table of Contents
-> [Problem Statement] (#Problem Statement)
+> [Problem Statement] (#problem-statement)
 
 The aim of this repository is to integrate rvmyth (RISC-V CPU core) with Phase Locked Looop (PLL) clock multiplier IP using open-source EDA tools. The whole project focuses on Mixed Signal Physical Design. 
 ### Tools Required
