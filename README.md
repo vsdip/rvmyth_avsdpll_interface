@@ -51,7 +51,7 @@ Now integrate both rvmyth and avsdpll using a top level testbench and test it to
 <img src = "https://github.com/vsdip/rvmyth_avsdpll_interface/blob/main/pics/4.PNG" width = 700>
 
 
-##OpenLANE and sky130 Installation steps
+## OpenLANE and sky130 Installation steps
 
 
 
