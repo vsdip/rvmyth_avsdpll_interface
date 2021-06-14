@@ -1,4 +1,4 @@
-# rvmyth_avsdpll_interface
+# RISC-V based SOC Design and Testing using Open-Source EDA Tools
 
 > ## Table of Contents
 > 1. [Introduction](https://github.com/vsdip/rvmyth_avsdpll_interface/blob/main/README.md#introduction) <br />
