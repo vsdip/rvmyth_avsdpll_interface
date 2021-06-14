@@ -59,7 +59,7 @@ More information on OpenLANE can be found in this repository https://github.com/
 
 After finishing off the installation, the first step in the design flow is to synthesize the generated RTL code.
 
-Synthesis in yosys
+### Synthesis in yosys
 In OpenLANE the RTL synthesis is performed by yosys.
 The technolgy mapping is performed by abc.
 Finally, the timing reports are generated for the resulting synthesized netlist by OpenSTA.
