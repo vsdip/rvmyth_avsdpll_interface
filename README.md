@@ -21,6 +21,7 @@
 
 ### **Problem Statement**
 
+Integration of *rvmyth* with *avsd_pll_1v8*.
 <img src = "https://github.com/vsdip/rvmyth_avsdpll_interface/blob/main/pics/1.png" width = 700>
 
 ### **PLL Specs**
