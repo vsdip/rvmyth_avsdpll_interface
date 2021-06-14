@@ -80,21 +80,23 @@ Verilog file(.v) of the avsdpll and its LIB(.lib) file.
 To generate the LIB file run the perl script given on this link, with the command given below.
 perl verilog_to_lib.pl avsddac.v avsddac
 
-To perform synthesys in yosys --> Just type yosys in linux shell. --> Then follow the script
+To perform synthesys in yosys
 
-read_verilog rvmyth_pll.v <br />
-read_liberty -lib avsd_pll_1v8.lib <br />
-read_liberty -lib sky130_fd_sc_hd__tt_025C_1v80.lib <br />
-synth -top rvmyth_pll_interface <br />
-dfflibmap -liberty sky130_fd_sc_hd__tt_025C_1v80.lib <br />
-opt <br />
-abc -liberty sky130_fd_sc_hd__tt_025C_1v80.lib -script +strash;scorr;ifraig;retime;{D};strash;dch,-f;map,-M,1,{D} <br />
-flatten <br />
-setundef -zero <br />
-clean -purge <br />
-rename -enumerate <br />
-stat <br />
-write_verilog -noattr rvmyth_avsddac.synth.v <br />
+- Just type *yosys* in linux shell and follow the script. <br />
+
+```read_verilog rvmyth_pll.v``` <br />
+```read_liberty -lib avsd_pll_1v8.lib``` <br />
+```read_liberty -lib sky130_fd_sc_hd__tt_025C_1v80.lib``` <br />
+```synth -top rvmyth_pll_interface``` <br />
+```dfflibmap -liberty sky130_fd_sc_hd__tt_025C_1v80.lib``` <br />
+```opt``` <br />
+```abc -liberty sky130_fd_sc_hd__tt_025C_1v80.lib -script +strash;scorr;ifraig;retime;{D};strash;dch,-f;map,-M,1,{D}``` <br />
+```flatten``` <br />
+```setundef -zero``` <br />
+```clean -purge``` <br />
+```rename -enumerate``` <br />
+```stat```<br />
+```write_verilog -noattr avsd_pll_1v8.synth.v``` <br />
 
 
 The synthesized netlist is *avsd_pll_1v8.synth.v* <br />
