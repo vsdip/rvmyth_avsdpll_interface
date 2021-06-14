@@ -9,7 +9,7 @@
 > 6. [Acknowledgements](https://github.com/vsdip/rvmyth_avsdpll_interface#acknowledgements)
 
 **The aim of this repository is to integrate rvmyth (RISC-V CPU core developed by VSD) with a PLL (Phase Locked Loop) as a clock multiplier using open-source EDA tools. The whole project focuses on Mixed Signal Physical Design.** 
-### Tools Required
+## Tools Required
 
 *iverilog and gtkwave*
 
@@ -21,12 +21,12 @@ The rvmyth is a digital block whereas the pll is an ananlog block. To achieve th
 
 <img src = "https://github.com/vsdip/rvmyth_avsdpll_interface/blob/main/pics/1.png" width = 700>
 
-### PLL Specs
+## PLL Specs
 
 <img src = "https://github.com/vsdip/rvmyth_avsdpll_interface/blob/main/pics/2.png" width = 700>
 
 
-## Installation & Runs
+### Installation & Runs
 
 1. Install iverilog and gtkwave
 
@@ -61,7 +61,7 @@ Now integrate both rvmyth and avsdpll using a top level testbench and test it to
 <img src = "https://github.com/vsdip/rvmyth_avsdpll_interface/blob/main/pics/4.PNG" width = 700>
 
 
-## OpenLANE and sky130 Installation
+### OpenLANE and sky130 Installation
 
 OpenLANE is an automated RTL to GDSII flow based on several components including OpenROAD, Yosys, Magic, Netgen, Fault,SPEF-Extractor and custom methodology scripts for design exploration and optimization (https://github.com/efabless/openlane). <br />
 
