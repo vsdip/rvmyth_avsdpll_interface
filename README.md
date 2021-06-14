@@ -33,9 +33,10 @@ The rvmyth is a digital block whereas the pll is an ananlog block. To achieve th
 
 ### **Installation & Runs**
 
-1. Install iverilog and gtkwave
+Install iverilog and gtkwave
 
-2. #### Simulate rvmyth using the following steps: 
+1. #### **rvmyth simulation**
+      Simulate rvmyth using the following steps: 
 
    -  git clone https://github.com/kunalg123/rvmyth/ <br />
    -  cd rvmyth <br />
@@ -46,6 +47,7 @@ The rvmyth is a digital block whereas the pll is an ananlog block. To achieve th
 
 <img src = "https://github.com/vsdip/rvmyth_avsdpll_interface/blob/main/pics/3a.PNG" width = 700>
 
+2. #### **Designing avsdpll**
 Design a PLL as a clock multiplier using verilog and test the functionality.
 
   - iverilog avsd_pll_1v8.v pll_tb.v
@@ -55,7 +57,7 @@ Design a PLL as a clock multiplier using verilog and test the functionality.
 
 <img src = "https://github.com/vsdip/rvmyth_avsdpll_interface/blob/main/pics/3aa.PNG" width = 700>
 
-
+3. #### **Integration of rvmyth and avsdpll**
 Now integrate both rvmyth and avsdpll using a top level testbench and test it to verify.
 
  - iverilog rvmyth_pll.v rvmyth_pll_tb.v
