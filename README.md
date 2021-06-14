@@ -55,11 +55,12 @@ Now integrate both rvmyth and avsdpll using a top level testbench and test it to
 
 ## OpenLANE and sky130 Installation steps
 
-OpenLANE is an automated RTL to GDSII flow based on several components including OpenROAD, Yosys, Magic, Netgen, Fault,SPEF-Extractor and custom methodology scripts for design exploration and optimization. The OpenLANE and sky130 installation can be done by following the steps in this repository https://github.com/nickson-jose/openlane_build_script.
+// OpenLANE is an automated RTL to GDSII flow based on several components including OpenROAD, Yosys, Magic, Netgen, Fault,SPEF-Extractor and custom methodology scripts for design exploration and optimization.  https://github.com/efabless/openlane . <br />
 
-More information on OpenLANE can be found in this repository https://github.com/efabless/openlane .
+The OpenLANE and sky130 installation can be done by referring this repository https://github.com/nickson-jose/openlane_build_script.
 
-After finishing off the installation, the first step in the design flow is to synthesize the generated RTL code.
+Once installation is done the next step is synthesis. <br />
+
 
 ### Synthesis in yosys
 In OpenLANE the RTL synthesis is performed by yosys.
