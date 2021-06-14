@@ -35,7 +35,7 @@ The rvmyth is a digital block whereas the pll is an ananlog block. To achieve th
 
 1. Install iverilog and gtkwave
 
-2. Simulate rvmyth using the following steps: 
+2. #### Simulate rvmyth using the following steps: 
 
    -  git clone https://github.com/kunalg123/rvmyth/ <br />
    -  cd rvmyth <br />
