@@ -2,7 +2,7 @@
 
 > ## Table of Contents
 > 1. [Introduction](https://github.com/vsdip/rvmyth_avsdpll_interface/blob/main/README.md#introduction) <br />
-> 2. [Required Tools]()
+> 2. [Required Tools](https://github.com/vsdip/rvmyth_avsdpll_interface/blob/main/README.md#required-tools)
 > 3. [Problem Statement](https://github.com/vsdip/rvmyth_avsdpll_interface/blob/main/README.md#problem-statement) <br />
 > 4. [PLL Specs](https://github.com/vsdip/rvmyth_avsdpll_interface#pll-specs) <br />
 > 5. [Installation & Runs](https://github.com/vsdip/rvmyth_avsdpll_interface#installation--runs) <br />
