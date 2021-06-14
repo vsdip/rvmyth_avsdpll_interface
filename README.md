@@ -14,19 +14,19 @@
 *iverilog and gtkwave*
 
 
-### Problem Statement
+### **Problem Statement**
 
 The rvmyth is a digital block whereas the pll is an ananlog block. To achieve the integration firstly we need to generate a verilog block for the PLL and take the output of the PLL and give it as an input to the rvmyth. This will create the interface then the PNR flow must be implemented.
 
 
 <img src = "https://github.com/vsdip/rvmyth_avsdpll_interface/blob/main/pics/1.png" width = 700>
 
-## PLL Specs
+## **PLL Specs**
 
 <img src = "https://github.com/vsdip/rvmyth_avsdpll_interface/blob/main/pics/2.png" width = 700>
 
 
-### Installation & Runs
+### **Installation & Runs**
 
 1. Install iverilog and gtkwave
 
@@ -61,7 +61,7 @@ Now integrate both rvmyth and avsdpll using a top level testbench and test it to
 <img src = "https://github.com/vsdip/rvmyth_avsdpll_interface/blob/main/pics/4.PNG" width = 700>
 
 
-### OpenLANE and sky130 Installation
+### **OpenLANE and sky130 Installation**
 
 OpenLANE is an automated RTL to GDSII flow based on several components including OpenROAD, Yosys, Magic, Netgen, Fault,SPEF-Extractor and custom methodology scripts for design exploration and optimization (https://github.com/efabless/openlane). <br />
 
@@ -70,7 +70,7 @@ The OpenLANE and sky130 installation can be done by referring this repository ht
 Once installation is done the next step is synthesis. <br />
 
 
-### Synthesis in yosys
+### **Synthesis in yosys**
 In OpenLANE the RTL synthesis, technology mapping and timing reports are performed by different tools. <br />
 - RTL synthesis by yosys.
 - Technology mapping by abc.
