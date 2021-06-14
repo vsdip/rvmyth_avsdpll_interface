@@ -3,8 +3,8 @@
 > ## Table of Contents
 > 1. [Problem Statement](https://github.com/vsdip/rvmyth_avsdpll_interface/blob/main/README.md#problem-statement) <br />
 > 2. [PLL Specs](https://github.com/vsdip/rvmyth_avsdpll_interface#pll-specs) <br />
-> 3. [Installation Steps](https://github.com/vsdip/rvmyth_avsdpll_interface#installation-steps) <br />
-> 4. [OpenLANE and sky130 Installation steps](https://github.com/vsdip/rvmyth_avsdpll_interface#openlane-and-sky130-installation-steps) <br />
+> 3. [Installation & Runs](https://github.com/vsdip/rvmyth_avsdpll_interface#installation-steps) <br />
+> 4. [OpenLANE and sky130 Installation ](https://github.com/vsdip/rvmyth_avsdpll_interface#openlane-and-sky130-installation-steps) <br />
 > 5. [Synthesis in yosys](https://github.com/vsdip/rvmyth_avsdpll_interface#synthesis-in-yosys) <br />
 > 6. [Acknowledgements](https://github.com/vsdip/rvmyth_avsdpll_interface#acknowledgements)
 
@@ -26,7 +26,7 @@ The rvmyth is a digital block whereas the pll is an ananlog block. To achieve th
 <img src = "https://github.com/vsdip/rvmyth_avsdpll_interface/blob/main/pics/2.png" width = 700>
 
 
-## Installation steps
+## Installation & Runs
 
 1. Install iverilog and gtkwave
 
@@ -61,7 +61,7 @@ Now integrate both rvmyth and avsdpll using a top level testbench and test it to
 <img src = "https://github.com/vsdip/rvmyth_avsdpll_interface/blob/main/pics/4.PNG" width = 700>
 
 
-## OpenLANE and sky130 Installation steps
+## OpenLANE and sky130 Installation
 
 OpenLANE is an automated RTL to GDSII flow based on several components including OpenROAD, Yosys, Magic, Netgen, Fault,SPEF-Extractor and custom methodology scripts for design exploration and optimization (https://github.com/efabless/openlane). <br />
 
