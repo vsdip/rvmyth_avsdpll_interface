@@ -21,7 +21,7 @@ The rvmyth is a digital block whereas the pll is an ananlog block. To achieve th
 
 <img src = "https://github.com/vsdip/rvmyth_avsdpll_interface/blob/main/pics/1.png" width = 700>
 
-## **PLL Specs**
+### **PLL Specs**
 
 <img src = "https://github.com/vsdip/rvmyth_avsdpll_interface/blob/main/pics/2.png" width = 700>
 
