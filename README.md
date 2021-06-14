@@ -109,11 +109,8 @@ The snapshot of the synthesized netlist.
 
 
 
---> Now, simulate the generated netlist in iverilog & gtkwave to compare the pre - synthesis and post- synthesis simulations.
+ Now, with the generated netist simulate it in iverilog and check the results in gtkwave to compare the pre - synthesis and post- synthesis simulations. To achieve that first a GLS testbench file should be written in verilog to compare the results. The pre-synth and post-synth simulation output must be same.
 
-For that you'd need to create a verilog code for gate level simulation that must include the synthesized netlist verilog file obtained from yosys. The files necessary for pre and post synthesis can be found here.
-
-Both pre-synth and post-synth simulations must give out the same output.
 
 
 ## **Acknowledgements**
