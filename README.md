@@ -1,5 +1,8 @@
 # rvmyth_avsdpll_interface
 
+> ## Table of Contents
+> [Problem Statement] (#Problem Statement)
+
 The aim of this repository is to integrate rvmyth (RISC-V CPU core) with Phase Locked Looop (PLL) clock multiplier IP using open-source EDA tools. The whole project focuses on Mixed Signal Physical Design. 
 ### Tools Required
 
@@ -55,7 +58,7 @@ Now integrate both rvmyth and avsdpll using a top level testbench and test it to
 
 ## OpenLANE and sky130 Installation steps
 
-// OpenLANE is an automated RTL to GDSII flow based on several components including OpenROAD, Yosys, Magic, Netgen, Fault,SPEF-Extractor and custom methodology scripts for design exploration and optimization.  https://github.com/efabless/openlane . <br />
+OpenLANE is an automated RTL to GDSII flow based on several components including OpenROAD, Yosys, Magic, Netgen, Fault,SPEF-Extractor and custom methodology scripts for design exploration and optimization (https://github.com/efabless/openlane). <br />
 
 The OpenLANE and sky130 installation can be done by referring this repository https://github.com/nickson-jose/openlane_build_script.
 
