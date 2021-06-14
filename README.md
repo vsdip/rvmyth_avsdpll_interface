@@ -41,7 +41,7 @@ The rvmyth is a digital block whereas the pll is an ananlog block. To achieve th
 
 
 - #### **Rvmyth simulation**
-      Simulate rvmyth using the following steps: 
+    Simulate rvmyth using the following steps: 
 
    -  git clone https://github.com/kunalg123/rvmyth/ <br />
    -  cd rvmyth <br />
@@ -55,9 +55,9 @@ The rvmyth is a digital block whereas the pll is an ananlog block. To achieve th
 - #### **Designing avsdpll**
 Design a PLL as a clock multiplier using verilog and test the functionality.
 
-  - iverilog avsd_pll_1v8.v pll_tb.v
-  - ./a.out
-  - gtkwave test.vcd
+     - iverilog avsd_pll_1v8.v pll_tb.v
+     - ./a.out
+     - gtkwave test.vcd
 
 
 <img src = "https://github.com/vsdip/rvmyth_avsdpll_interface/blob/main/pics/3aa.PNG" width = 700>
