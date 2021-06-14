@@ -43,11 +43,11 @@ The rvmyth is a digital block whereas the pll is an ananlog block. To achieve th
 - #### **Rvmyth simulation**
     Simulate rvmyth using the following steps: 
 
-      -  git clone https://github.com/kunalg123/rvmyth/ <br />
-      -  cd rvmyth <br />
-      -  iverilog mythcore_test.v tb_mythcore_test.v <br />
-      -  ./a.out <br />
-      -  gtkwave tb_mythcore_test.vcd <br />
+      -  git clone https://github.com/kunalg123/rvmyth/ 
+      -  cd rvmyth 
+      -  iverilog mythcore_test.v tb_mythcore_test.v 
+      -  ./a.out
+      -  gtkwave tb_mythcore_test.vcd 
 
 
 <img src = "https://github.com/vsdip/rvmyth_avsdpll_interface/blob/main/pics/3a.PNG" width = 700>
