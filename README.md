@@ -83,20 +83,21 @@ perl verilog_to_lib.pl avsddac.v avsddac
 To perform synthesys in yosys
 
 - Just type *yosys* in linux shell and follow the script. <br />
+
 ```
-read_verilog rvmyth_pll.v <br />
-read_liberty -lib avsd_pll_1v8.lib <br />
-read_liberty -lib sky130_fd_sc_hd__tt_025C_1v80.lib <br />
-synth -top rvmyth_pll_interface <br />
-dfflibmap -liberty sky130_fd_sc_hd__tt_025C_1v80.lib <br />
-opt <br />
-abc -liberty sky130_fd_sc_hd__tt_025C_1v80.lib -script +strash;scorr;ifraig;retime;{D};strash;dch,-f;map,-M,1,{D} <br />
-flatten <br />
-setundef -zero <br />
-clean -purge <br />
-rename -enumerate <br />
-stat <br />
-write_verilog -noattr avsd_pll_1v8.synth.v <br />
+read_verilog rvmyth_pll.v 
+read_liberty -lib avsd_pll_1v8.lib 
+read_liberty -lib sky130_fd_sc_hd__tt_025C_1v80.lib 
+synth -top rvmyth_pll_interface 
+dfflibmap -liberty sky130_fd_sc_hd__tt_025C_1v80.lib 
+opt 
+abc -liberty sky130_fd_sc_hd__tt_025C_1v80.lib -script +strash;scorr;ifraig;retime;{D};strash;dch,-f;map,-M,1,{D} 
+flatten 
+setundef -zero 
+clean -purge 
+rename -enumerate
+stat 
+write_verilog -noattr avsd_pll_1v8.synth.v 
 ```
 
 The synthesized netlist is *avsd_pll_1v8.synth.v* <br />
