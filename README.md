@@ -122,8 +122,13 @@ The snapshot of the synthesized netlist.
 
 
  Now, with the generated netist simulate it in iverilog and check the results in gtkwave to compare the pre-synth and post-synth simulations. To achieve that first a GLS testbench file should be written in verilog to compare the results. The pre-synth and post-synth simulation output must be same.
+ 
 
+### **Pre-Synthesis simulation**
+<img src = "https://github.com/vsdip/rvmyth_avsdpll_interface/blob/main/pics/5.PNG" width = 700>
 
+### **Post-Synthesis simulation**
+<img src = "https://github.com/vsdip/rvmyth_avsdpll_interface/blob/main/pics/.PNG" width = 700>
 
 ## **Acknowledgements**
 Mr.[Kunal Ghosh](https://www.vlsisystemdesign.com/about-me/) Co-founder of [VLSI System Design Pvt. Ltd](https://www.vlsisystemdesign.com/).
