@@ -125,10 +125,10 @@ The snapshot of the synthesized netlist.
  
 
 ### **Pre-Synthesis simulation**
-<img src = "https://github.com/vsdip/rvmyth_avsdpll_interface/blob/main/pics/5.PNG" width = 700>
+<img src = "https://github.com/vsdip/rvmyth_avsdpll_interface/blob/main/pics/pre%20s.PNG" width = 700>
 
 ### **Post-Synthesis simulation**
-<img src = "https://github.com/vsdip/rvmyth_avsdpll_interface/blob/main/pics/.PNG" width = 700>
+<img src = "https://github.com/vsdip/rvmyth_avsdpll_interface/blob/main/pics/post%20s.PNG" width = 700>
 
 ## **Acknowledgements**
 Mr.[Kunal Ghosh](https://www.vlsisystemdesign.com/about-me/) Co-founder of [VLSI System Design Pvt. Ltd](https://www.vlsisystemdesign.com/).
