@@ -12,6 +12,8 @@
 >    -  [Integration of rvmyth and avsdpll](https://github.com/vsdip/rvmyth_avsdpll_interface#integration-of-rvmyth-and-avsdpll)
 > 7. [OpenLANE and sky130 Installation ](https://github.com/vsdip/rvmyth_avsdpll_interface#openlane-and-sky130-installation) <br />
 > 8. [Synthesis in yosys](https://github.com/vsdip/rvmyth_avsdpll_interface#synthesis-in-yosys) <br />
+>    - [Pre-Synthesis](https://github.com/vsdip/rvmyth_avsdpll_interface#pre-synthesis-simulation)
+>    - [Post-Synthesis](https://github.com/vsdip/rvmyth_avsdpll_interface#post-synthesis-simulation)
 > 9. [Acknowledgements](https://github.com/vsdip/rvmyth_avsdpll_interface#acknowledgements)
 
 ### **Introduction**
