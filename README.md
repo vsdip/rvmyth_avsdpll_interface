@@ -14,7 +14,8 @@
 > 8. [Synthesis in yosys](https://github.com/vsdip/rvmyth_avsdpll_interface#synthesis-in-yosys) <br />
 >    - [Pre-Synthesis](https://github.com/vsdip/rvmyth_avsdpll_interface#pre-synthesis-simulation)
 >    - [Post-Synthesis](https://github.com/vsdip/rvmyth_avsdpll_interface#post-synthesis-simulation)
-> 9. [Acknowledgements](https://github.com/vsdip/rvmyth_avsdpll_interface#acknowledgements)
+> 9. [References](https://github.com/vsdip/rvmyth_avsdpll_interface#references)   
+> 10. [Acknowledgements](https://github.com/vsdip/rvmyth_avsdpll_interface#acknowledgements)
 
 ### **Introduction**
 **The aim of this repository is to integrate rvmyth (RISC-V CPU core developed by VSD) with a PLL (Phase Locked Loop) as a clock multiplier using open-source EDA tools. The whole project focuses on Mixed Signal Physical Design.** 
