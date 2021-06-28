@@ -141,9 +141,9 @@ The snapshot of the synthesized netlist.
 4. https://gitlab.com/gab13c/openlane-workshop
 
 ## **Acknowledgements**
-Mr.[Kunal Ghosh](https://www.vlsisystemdesign.com/about-me/) Co-founder of [VLSI System Design Pvt. Ltd](https://www.vlsisystemdesign.com/).
-Shivani Shah, IIIT Bangalore.
-Mili Anand, M.Tech VLSI Design, Indira Gandhi Delhi Technical University for Women (IGDTUW).
+Mr.[Kunal Ghosh](https://www.vlsisystemdesign.com/about-me/) Co-founder of [VLSI System Design Pvt. Ltd](https://www.vlsisystemdesign.com/).  <br />
+Shivani Shah, IIIT Bangalore.  <br />
+Mili Anand, M.Tech VLSI Design, Indira Gandhi Delhi Technical University for Women (IGDTUW).  <br />
 
 
 
