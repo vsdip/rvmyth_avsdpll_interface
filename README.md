@@ -132,10 +132,17 @@ The snapshot of the synthesized netlist.
 ### **Post-Synthesis simulation**
 <img src = "https://github.com/vsdip/rvmyth_avsdpll_interface/blob/main/pics/post%20s.PNG" width = 700>
 
+
+## **References**
+1. https://github.com/vsdip/avsdpll_1v8_sky130_ss
+2. https://github.com/vsdip/vsdmixedsignalflow
+3. https://github.com/nickson-jose/vsdstdcelldesign
+4. https://gitlab.com/gab13c/openlane-workshop
+
 ## **Acknowledgements**
 Mr.[Kunal Ghosh](https://www.vlsisystemdesign.com/about-me/) Co-founder of [VLSI System Design Pvt. Ltd](https://www.vlsisystemdesign.com/).
 Shivani Shah, IIIT Bangalore.
-Mili Anand, M.Tech VLSI Design, Indira Gandhi Delhi Technical University for Women (IGDTUW)
+Mili Anand, M.Tech VLSI Design, Indira Gandhi Delhi Technical University for Women (IGDTUW).
 
 
 
