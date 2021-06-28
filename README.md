@@ -132,6 +132,8 @@ The snapshot of the synthesized netlist.
 
 ## **Acknowledgements**
 Mr.[Kunal Ghosh](https://www.vlsisystemdesign.com/about-me/) Co-founder of [VLSI System Design Pvt. Ltd](https://www.vlsisystemdesign.com/).
+Shivani Shah, IIIT Bangalore.
+Mili Anand, M.Tech VLSI Design, Indira Gandhi Delhi Technical University for Women (IGDTUW)
 
 
 
