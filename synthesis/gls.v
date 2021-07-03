@@ -1,7 +1,7 @@
 `include "mythcore_test.v"
 `include "primitives.v"
 `include "sky130_fd_sc_hd.v"
-`include "avsd_pll_1v8.synth.v"
+`include "rvmyth_pll.synth.v"
 `include "avsd_pll_1v8.v"
 //`include "rvmyth_pll.v"
 //`include "sky130_fd_sc_hd__tt_025C_1v80.lib"
