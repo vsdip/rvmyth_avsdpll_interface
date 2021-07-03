@@ -115,7 +115,7 @@ stat
 write_verilog -noattr rvmyth_pll.synth.v 
 ```
 
-The synthesized netlist is *avsd_pll_1v8.synth.v* <br />
+The synthesized netlist is *rvmyth_pll.synth.v* <br />
 
 The snapshot of the synthesized netlist.
 
