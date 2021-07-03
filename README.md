@@ -128,9 +128,19 @@ The snapshot of the synthesized netlist.
  
 
 ### **Pre-Synthesis simulation**
+Use the following commands for pre-synth simulation. <br />
+
+iverilog rvmyth_pll.v rvmyth_pll_tb.v
+        ./a.out
+        gtkwave test1.vcd 
 <img src = "https://github.com/vsdip/rvmyth_avsdpll_interface/blob/main/pics/pre%20s.PNG" width = 700>
 
 ### **Post-Synthesis simulation**
+Use the following commands for post-synth simulation. <br />
+
+iverilog gls.v 
+        ./a.out
+        gtkwave gls.vcd 
 <img src = "https://github.com/vsdip/rvmyth_avsdpll_interface/blob/main/pics/post%20s.PNG" width = 700>
 
 
